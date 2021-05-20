@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "concurrently \"npm run server\" \"next build\"",
+    "build": "next build",
     "start": "next start",
-    "dev": "concurrently \"npm run server\" \"next dev\"",
+    "dev": "next dev",
     "server": "json-server server.json -w -d 750 -p 3333"
   },
   "dependencies": {
